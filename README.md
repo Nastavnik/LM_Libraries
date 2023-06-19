@@ -1,6 +1,6 @@
 # LM_Libraries
  Логическая структура БД для создания "Библиотеки"
-![LM](https://github.com/Nastavnik/LM_Libraries/assets/79099352/d21ab014-ad16-4325-a89b-54fd088a695e)
+![LM2](https://github.com/Nastavnik/LM_Libraries/assets/79099352/9b4686cb-6af7-4b7a-a42c-3cbda7053273)
 Выбор ключей
 PK и FK
 1) PK для Books (книги) - books_id bigint
@@ -9,6 +9,7 @@ PK и FK
 4) PK для employee (сотрудники библиотеки) - id bigint
 5) PK для Department (отделы в библиотеки) - id integer 
 6) PK для rent_books (аренда книг) - rent_id bigint
+
 
 FK 
 1) в таблице employee (сотрудники библиотеки) - department_id integer (внешний ключ берем из таблицы Department)
